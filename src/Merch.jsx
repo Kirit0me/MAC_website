@@ -1,11 +1,9 @@
-import Navbar from './NavBar';
-import shouk from './img/shoukaku.jpg';
-import {motion} from "framer-motion";
+import NavBar from './NavBar';
 
 function Merch() {
     return (
         <div>
-            <Navbar />
+            <NavBar />
             Merch
         </div>
     )

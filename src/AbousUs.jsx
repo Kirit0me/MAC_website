@@ -1,10 +1,10 @@
-import Navbar from "./NavBar"
+import NavBar from "./NavBar"
 
 
-function About() {
+function AboutUs() {
     return(
         <div class="h-screen snap-center flex-col">
-            <Navbar />
+            <NavBar />
             <h1 class ="text-center p-4 pt-8 text-5xl rounded-3xl">
                 <div class="bg-slate-700 rounded-3xl p-6 ">
                 <span class="bg-clip-text font-semibold text-transparent bg-gradient-to-r from-fuchsia-400 to-purple-400">About Us</span>
@@ -21,4 +21,4 @@ function About() {
     )
 }
 
-export default About 
+export default AboutUs 

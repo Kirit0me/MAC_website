@@ -1,4 +1,4 @@
-import Navbar from './NavBar';
+import NavBar from './NavBar';
 import shouk from './img/shoukaku.jpg';
 import {motion} from "framer-motion";
 
@@ -11,7 +11,7 @@ function History() {
 
     return (
         <div>
-            <Navbar />
+            <NavBar />
             <h1 class="text-6xl text-center p-6 text-white">History</h1>
             <DisplayMembers list_of_mems={Members_2015} />
         </div>

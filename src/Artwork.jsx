@@ -1,4 +1,4 @@
-import Navbar from './NavBar';
+import NavBar from './NavBar';
 import shouk from './img/shoukaku.jpg';
 import {motion} from "framer-motion";
 
@@ -11,7 +11,7 @@ function Artwork() {
 
     return (
         <div>
-            <Navbar />
+            <NavBar />
             <h1 class="text-6xl text-center p-6 text-white">Artworks</h1>
             <div class="flex flex-row flex-wrap justify-evenly">
                 {artworks.map(({ id, artwork }, index) => (

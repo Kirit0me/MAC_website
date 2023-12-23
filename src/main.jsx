@@ -6,7 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import MainPage from './MainPage'
-import About from './AbousUs'
+import AboutUs from './AbousUs'
 import Events from './Events'
 import Artwork from './Artwork'
 import History from './History'
@@ -19,7 +19,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/about",
-    element: <About />,
+    element: <AboutUs />,
   },
   {
     path: "/events",
