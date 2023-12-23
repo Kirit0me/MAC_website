@@ -21,7 +21,7 @@ function Navigation_Bar() {
                     <div class="p-2 text-center font-bold  pt-5"><Link to='/history'>History</Link></div>
                 </div>
             </div>
-            <span class="text-white my-auto p-2 text-xl">mac</span>
+            <span class="opacity-0"></span>
         </div>
     )
 }

@@ -19,7 +19,7 @@ function Events() {
                       }}
                     initial="offscreen"
                     whileInView="onscreen"
-                    transition={{duration: 0.5, delay: 0.25}} class="h-screen">
+                    transition={{duration: 0.5, delay: 0.25, type: "spring"}} class="h-screen">
                 <h1 class="text-3xl font-semibold p-6 pl-24"><span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Shonen Fest</span></h1>
                 <div class="p-4 grid grid-cols-1 gap-4 md:grid-cols-2 text-white">
                     <div className = "hiddenl" class="p-6 bg-slate-700 rounded-3xl">
@@ -53,7 +53,7 @@ function Events() {
                       }}
                     initial="offscreen"
                     whileInView="onscreen"
-                    transition={{duration: 0.5, delay: 0.25}} class="h-screen">
+                    transition={{duration: 0.5, delay: 0.25, type: "spring"}} class="h-screen">
                 <h1 class="text-3xl font-semibold p-6 pl-24"><span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Maid Cafe</span></h1>
                 <div class="p-4 grid grid-cols-1 gap-4 md:grid-cols-2 text-white">
                     <div className = "hiddenl" class="p-6 bg-slate-700 rounded-3xl">
@@ -87,7 +87,7 @@ function Events() {
                       }}
                     initial="offscreen"
                     whileInView="onscreen"
-                    transition={{duration: 0.5, delay: 0.25}} class="h-screen">
+                    transition={{duration: 0.5, delay: 0.25, type: "spring"}} class="h-screen">
                 <h1 class="text-3xl font-semibold p-6 pl-24"><span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Animania</span></h1>
                 <div class="p-4 grid grid-cols-1 gap-4 md:grid-cols-2 text-white">
                     <div class="p-6 bg-slate-700 rounded-3xl">
