@@ -1,11 +1,11 @@
-import { NavBar } from './NavBar';
+import Navigation_Bar from './NavBar';
 import shouk from './img/shoukaku.jpg';
 import { motion } from "framer-motion";
 
 function Events() {
     return (
         <div>
-            <NavBar />
+            <Navigation_Bar />
             <h1 class="text-6xl text-center p-6 text-white">2024 Events</h1>
             <motion.div
                     variants={{ offscreen: {

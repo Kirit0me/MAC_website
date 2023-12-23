@@ -1,9 +1,9 @@
-import { NavBar } from './NavBar';
+import Navigation_Bar from "./NavBar"
 
 function Merch() {
     return (
         <div>
-            <NavBar />
+            <Navigation_Bar />
             Merch
         </div>
     )
