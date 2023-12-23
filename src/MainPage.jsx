@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function MainPage() {
     return (
         <div class="relative h-screen snap-center">
@@ -8,23 +10,23 @@ function MainPage() {
             <div class="absolute inset-0 flex w-screen items-center justify-evenly">
                 <button
                 class="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:text-neutral-100 hover:animate-bounce focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 ">
-                Home
+                <Link to='/about'>About</Link>
                 </button>
                 <button
                 class="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:text-neutral-100 hover:animate-bounce focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 ">
-                Events
+                <Link to='/events'>Events</Link>
                 </button>
                 <button
                 class="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:text-neutral-100 hover:animate-bounce focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200">
-                Artworks
+                <Link to='/artwork'>Artworks</Link>
                 </button>
                 <button
                 class="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:text-neutral-100 hover:animate-bounce focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200">
-                Merch
+                <Link to='/merch'>Merch</Link>
                 </button>
                 <button
                 class="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:text-neutral-100 hover:animate-bounce focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200">
-                History
+                <Link to='/history'>History</Link>
                 </button>
             </div>
         </div>
