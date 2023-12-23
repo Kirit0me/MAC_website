@@ -1,4 +1,4 @@
-import NavBar from './NavBar';
+import { NavBar } from './NavBar';
 import shouk from './img/shoukaku.jpg';
 import {motion} from "framer-motion";
 
