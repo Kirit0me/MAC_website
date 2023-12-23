@@ -1,4 +1,4 @@
-import Navigation_Bar from "./NavBar"
+import Navigation_Bar from "./navigation_bar"
 
 function AboutUs() {
     return(

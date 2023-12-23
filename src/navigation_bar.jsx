@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function Navbar() {
+function Navigation_Bar() {
     return (
         <div class=" bg-slate-900 h-16 flex flex-row justify-between">
             <div class="p-2 "><img src="/mac.png" class="h-12 w-12"></img></div>
@@ -26,4 +26,4 @@ function Navbar() {
     )
 }
 
-export default Navbar
+export default Navigation_Bar
