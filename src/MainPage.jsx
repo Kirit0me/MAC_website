@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from 'react'
-import Navbar from "./NavBar";
 
 function MainPage() {
     const [currentIndex, setCurrentIndex] = useState(0);
