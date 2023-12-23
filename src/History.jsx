@@ -18,7 +18,7 @@ function History() {
 
 function DisplayMembers({ list_of_mems }) {
     return (
-        <div class="flex flex-row justify-evenly">
+        <div class="flex flex-row flex-wrap justify-evenly">
         {list_of_mems.map(({ name, pic, role, batch }, index) => (
             <motion.div
             key={name}

@@ -7,7 +7,7 @@ function Events() {
             <h1 class="text-6xl text-center p-6 text-white">2024 Events</h1>
             <motion.div
                     variants={{ offscreen: {
-                        x: -800 ,
+                        x: "-100%" ,
                         opacity: 0
                       },
                       onscreen: {
@@ -41,7 +41,7 @@ function Events() {
             </motion.div>
             <motion.div
                     variants={{ offscreen: {
-                        x: -800 ,
+                        x: "-100%" ,
                         opacity: 0
                       },
                       onscreen: {
@@ -75,7 +75,7 @@ function Events() {
             </motion.div>
             <motion.div
                     variants={{ offscreen: {
-                        x: -800 ,
+                        x: "-100%" ,
                         opacity: 0
                       },
                       onscreen: {

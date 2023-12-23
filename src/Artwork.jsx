@@ -10,12 +10,12 @@ function Artwork() {
 
     return (
         <div>
-            <h1 class="text-6xl text-center p-6 text-white">2024 Events</h1>
-            <div class="flex flex-row justify-evenly">
+            <h1 class="text-6xl text-center p-6 text-white">Artworks</h1>
+            <div class="flex flex-row flex-wrap justify-evenly">
                 {artworks.map(({ id, artwork }, index) => (
                     <motion.div
                     key={id}
-                    class="w-96 h-96 flex bg-cover bg-center rounded-3xl m-4"
+                    class="w-96 h-96  bg-cover bg-center rounded-3xl m-4"
                     style={{ backgroundImage: `url(${artwork})` }}
                     initial={{ opacity: 0, scale: 0.5, x: "100%" }}
                     animate={{ opacity: 1, scale: 1, x: 0 }}
