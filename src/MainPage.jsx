@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
+import img1 from '/src/img/frieran.jpg'
+import img2 from '/src/img/spotlight.jpg'
+import img3 from '/src/img/379.jpg'
 
 function MainPage() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const images = ['/src/img/frieran.jpg', '/src/img/spotlight.jpg', '/src/img/379.jpg']; 
+    const images = [img1, img2, img3]; 
   
     useEffect(() => {
       const intervalId = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-      }, 5000); 
+      }, 2000); 
   
       return () => {
         clearInterval(intervalId); 
