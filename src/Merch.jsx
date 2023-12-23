@@ -4,7 +4,7 @@ import {motion} from "framer-motion";
 function Merch() {
     return (
         <div>
-            hello
+            Merch
         </div>
     )
 }

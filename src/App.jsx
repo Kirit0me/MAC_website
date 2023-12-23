@@ -2,6 +2,8 @@ import { useState } from 'react'
 import MainPage from './MainPage'
 import About from './AbousUs'
 import Events from './Events'
+import Artwork from './Artwork'
+import History from './History'
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
     //   <About />
     // </div>
     <>
-    <Events />
+    {/* <Events /> */}
+    {/* <Artwork /> */}
+    <History />
     </>
   )
 }
