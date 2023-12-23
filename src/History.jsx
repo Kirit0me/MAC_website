@@ -1,6 +1,5 @@
 import shouk from './img/shoukaku.jpg';
 import {motion} from "framer-motion";
-import Navbar from './NavBar';
 
 function History() {
     const Members_2015 = [
@@ -11,7 +10,6 @@ function History() {
 
     return (
         <div>
-            <Navbar />
             <h1 class="text-6xl text-center p-6 text-white">History</h1>
             <DisplayMembers list_of_mems={Members_2015} />
         </div>
