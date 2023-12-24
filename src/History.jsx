@@ -29,15 +29,15 @@ function DisplayMembers({ list_of_mems }) {
             animate={{ opacity: 1, scale: 1, x: 0 }}
             transition={{ duration: 1, delay: index * 0.2 }}
             >
-        <img 
-          src={pic}
-          alt={name}
-          class="mx-auto rounded-full h-36 w-36"
-        >
-        </img>
-        <h2 class="text-xl pt-6 text-center text-pink-300">{name}</h2>
-        <h2 class="text-xl text-center text-pink-300">{role}</h2>
-        <h2 class="text-xl text-center text-pink-300">{batch}</h2>
+                <img 
+                src={pic}
+                alt={name}
+                class="mx-auto rounded-full h-36 w-36"
+                >
+                </img>
+                <h2 class="text-xl pt-6 text-center text-pink-300">{name}</h2>
+                <h2 class="text-xl text-center text-pink-300">{role}</h2>
+                <h2 class="text-xl text-center text-pink-300">{batch}</h2>
             </motion.div>
         ))}
     </div>

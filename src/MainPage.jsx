@@ -17,6 +17,14 @@ function MainPage() {
         clearInterval(intervalId); 
       };
     }, [images.length]);
+
+    const navItems = [
+        { label: 'About', path: '/about' },
+        { label: 'Events', path: '/events' },
+        { label: 'Artworks', path: '/artwork' },
+        { label: 'Merch', path: '/merch' },
+        { label: 'History', path: '/history' },
+      ];
     return (
         <div class="relative h-screen">
              {images.map((image, index) => (
@@ -36,28 +44,18 @@ function MainPage() {
                 <span class="md:hidden"> MAC</span>
                  <span class="hidden md:inline"><b> MANGA </b>AND <b>ANIME</b> CLUB</span>
             </h1>
-            <h2 class="text-3xl text-white text-right pr-36 pt-6 ">Manipal</h2>
-            <div class="absolute p-4 top-96 flex-wrap flex w-screen items-center justify-evenly">
-                <button
-                class="rounded border-2 p-6 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80  hover:animate-bounce">
-                <Link to='/about'>About</Link>
-                </button>
-                <button
-                class="rounded border-2 p-6 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80  hover:animate-bounce">
-                <Link to='/events'>Events</Link>
-                </button>
-                <button
-                class="rounded border-2 p-6 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:animate-bounce">
-                <Link to='/artwork'>Artworks</Link>
-                </button>
-                <button
-                class="rounded border-2 p-6 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:animate-bounce">
-                <Link to='/merch'>Merch</Link>
-                </button>
-                <button
-                class="rounded border-2 p-6 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:animate-bounce">
-                <Link to='/history'>History</Link>
-                </button>
+            <h2 class="text-3xl text-white text-right pr-32 pt-6 ">Manipal</h2>
+            <div class="absolute top-96 flex-wrap flex flex-col md:flex-row w-screen items-center justify-evenly">
+                {navItems.map((item, index) => (
+                    <div class="p-2">
+                    <button
+                        key={index}
+                        class="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:animate-bounce"
+                        >
+                        <Link to={item.path}>{item.label}</Link>
+                    </button>
+                    </div>
+                ))}
             </div>
         </div>
     )
