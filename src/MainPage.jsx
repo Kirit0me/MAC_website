@@ -4,13 +4,14 @@ import img1 from '/src/img/frieran.jpg'
 import img2 from '/src/img/aot.jpg'
 import img3 from '/src/img/379.jpg'
 import img4 from '/src/img/lucky_star_1.jpg'
-import img5 from '/src/img/higurashi.jpg'
+import img5 from '/src/img/mikuoshi.jpg'
 import img6 from '/src/img/holo.jpg'
 import img7 from '/src/img/hyouka.png'
-import img8 from '/src/img/miku1.jpg'
+import img8 from '/src/img/mikuoshi.jpg'
 import img9 from '/src/img/lucky_star_3.jpg'
 import img10 from '/src/img/yosuga.jpg'
-import img11 from '/src/img/fuxuan.jpg'
+import img11 from '/src/img/oshi.jpg'
+import img12 from '/src/img/ai.png'
 
 function shuffle(array) {
     let currentIndex = array.length, randomIndex;
@@ -25,7 +26,7 @@ function shuffle(array) {
   
 function MainPage() {
     const [currentIndex, setCurrentIndex] = useState(0);
-    let imgs = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
+    let imgs = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12];
     const [shuffledImages, setShuffledImages] = useState(shuffle(imgs));
   
     useEffect(() => {
