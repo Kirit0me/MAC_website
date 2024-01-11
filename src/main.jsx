@@ -11,6 +11,7 @@ import Events from './Events'
 import Artwork from './Artwork'
 import History from './History'
 import Merch from './Merch';
+import ShitPosting from './ShitPosting';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/merch",
     element: <Merch />,
+  },
+  {
+    path: "/shitposting",
+    element: <ShitPosting />,
   }
 ]);
 

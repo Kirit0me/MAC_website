@@ -12,6 +12,7 @@ function Artwork() {
     return (
         <div>
             <Navigation_Bar />
+            <div class="pt-16">
             <h1 class="text-6xl text-center p-6 text-white">Artworks</h1>
             <div class="flex flex-row flex-wrap justify-evenly">
                 {artworks.map(({ id, artwork }, index) => (
@@ -28,6 +29,7 @@ function Artwork() {
                     </a>
                     </motion.div>
                 ))}
+            </div>
             </div>
         </div>
     )

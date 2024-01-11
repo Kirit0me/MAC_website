@@ -4,7 +4,9 @@ function Merch() {
     return (
         <div>
             <Navigation_Bar />
-            Merch
+            <div class="pt-16">
+                Merch
+            </div>
         </div>
     )
 }

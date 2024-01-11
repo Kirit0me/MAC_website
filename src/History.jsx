@@ -12,8 +12,10 @@ function History() {
     return (
         <div>
             <Navigation_Bar/>
+            <div class="pt-16">
             <h1 class="text-6xl text-center p-6 text-white">History</h1>
             <DisplayMembers list_of_mems={Members_2015} />
+            </div>
         </div>
     )
 }
