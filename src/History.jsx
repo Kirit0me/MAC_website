@@ -1,5 +1,5 @@
 import Navigation_Bar  from "./navigation_bar";
-import shouk from './img/shoukaku.jpg';
+import shouk from './img/shoukaku.webp';
 import {motion} from "framer-motion";
 
 function History() {
