@@ -1,6 +1,7 @@
 import Navigation_Bar from './navigation_bar';
 import shouk from './img/shoukaku.webp';
 import { motion } from "framer-motion";
+import { Navigate, useNavigate } from 'react-router-dom';
 
 import roonil from "./img/roonil_ttt.png"
 import kiri from "./img/kiri_ttt.png"
@@ -36,13 +37,19 @@ function Events() {
                     <div className="flex justify-evenly flex-wrap">
                         <img 
                             src={kiri}
-                            className="object-cover mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center  p-4"></img>
-                            <img 
+                            className="object-cover mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center  p-4"
+                            onClick={() => window.location.href = "https://www.instagram.com/p/C1HkRePvT1T/?img_index=2"}> 
+                        </img>
+                        <img 
                             src={roonil}
-                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
-                            <img 
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"
+                            onClick={() => window.location.href = "https://www.instagram.com/p/C1qfTXCvqAA/"}>
+                        </img>
+                        <img 
                             src={dl}
-                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>        
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"
+                            onClick={() => window.location.href = "https://www.instagram.com/p/C2OuzE-PZpZ/"}>
+                        </img>        
                     </div>
                 </div>
             </motion.div>
