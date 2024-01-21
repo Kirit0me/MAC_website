@@ -10,9 +10,9 @@ export default {
         anime: ['Space Mono']
       }, 
       backgroundImage: {
-        'kirito': "url('./src/img/kiri-minimal.webp')",
-        'oshi-no-ko' : "url('./src/img/oshi-no-ko.webp')",
-        'akame' : "url('./src/img/akame.webp')"
+        'kirito': "url('/src/img/kiri-minimal.webp')",
+        'oshi-no-ko' : "url('/src/img/oshi-no-ko.webp')",
+        'akame' : "url('/src/img/akame.webp')"
       }
     },
   },

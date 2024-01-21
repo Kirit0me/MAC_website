@@ -1,7 +1,6 @@
 import Navigation_Bar from './navigation_bar';
 import shouk from './img/shoukaku.webp';
 import { motion } from "framer-motion";
-import { Navigate, useNavigate } from 'react-router-dom';
 
 import roonil from "./img/roonil_ttt.png"
 import kiri from "./img/kiri_ttt.png"
@@ -9,7 +8,7 @@ import dl from "./img/dl_ttt.png"
 
 function Events() {
     return (
-        <div className="bg-kirito bg-cover h-screen overflow-scroll">
+        <div className="bg-kirito bg-cover h-screen overflow-scroll scrollbar-hide">
             <Navigation_Bar />
             <div className="pt-16">
             <h1 className="text-6xl text-center p-6 text-white">2024 Events</h1>
