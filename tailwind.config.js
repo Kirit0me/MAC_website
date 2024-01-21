@@ -10,7 +10,9 @@ export default {
         anime: ['Space Mono']
       }, 
       backgroundImage: {
-        'frieran': "url('src/img/frieran.jpg')"
+        'kirito': "url('src/img/kiri-minimal.webp')",
+        'oshi-no-ko' : "url('src/img/oshi-no-ko.webp')",
+        'akame' : "url('src/img/akame.webp')"
       }
     },
   },

@@ -10,10 +10,10 @@ function History() {
       ];
 
     return (
-        <div>
+        <div className="bg-oshi-no-ko h-screen bg-cover overflow-y-scroll bg-opacity-10">
             <Navigation_Bar/>
-            <div class="pt-16">
-            <h1 class="text-6xl text-center p-6 text-white">History</h1>
+            <div className="pt-16">
+            <h1 className="text-6xl text-center p-6 text-white">History</h1>
             <DisplayMembers list_of_mems={Members_2015} />
             </div>
         </div>
@@ -22,11 +22,11 @@ function History() {
 
 function DisplayMembers({ list_of_mems }) {
     return (
-        <div class="flex flex-row flex-wrap justify-evenly">
+        <div className="flex flex-row flex-wrap justify-evenly">
         {list_of_mems.map(({ name, pic, role, batch }, index) => (
             <motion.div
             key={name}
-            class="flex-none rounded-3xl p-10 mb-5 mr-4 bg-slate-700 hover:bg-gradient-to-tr from-slate-800 via-slate-500 to-slate-800"
+            className="flex-none rounded-3xl p-10 mb-5 mr-4 bg-transparent border-2 border-slate-400 backdrop-blur-md hover:bg-gradient-to-tr from-black via-slate-900 to-black"
             initial={{ opacity: 0, scale: 0.5, x: "100%" }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
             transition={{ duration: 1, delay: index * 0.2 }}
@@ -34,12 +34,12 @@ function DisplayMembers({ list_of_mems }) {
                 <img 
                 src={pic}
                 alt={name}
-                class="mx-auto rounded-full h-36 w-36"
+                className="mx-auto rounded-full h-36 w-36"
                 >
                 </img>
-                <h2 class="text-xl pt-6 text-center text-pink-300">{name}</h2>
-                <h2 class="text-xl text-center text-pink-300">{role}</h2>
-                <h2 class="text-xl text-center text-pink-300">{batch}</h2>
+                <h2 className="text-xl pt-6 text-center text-pink-300">{name}</h2>
+                <h2 className="text-xl text-center text-pink-300">{role}</h2>
+                <h2 className="text-xl text-center text-pink-300">{batch}</h2>
             </motion.div>
         ))}
     </div>

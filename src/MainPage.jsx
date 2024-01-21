@@ -53,7 +53,7 @@ function MainPage() {
         { label: 'Stuff', path: '/shitposting' }
       ];
     return (
-        <div class="relative h-screen">
+        <div className="relative h-screen">
              {shuffledImages.map((image, index) => (
                 <div
                     key={index}
@@ -65,19 +65,19 @@ function MainPage() {
                     }}
                 ></div>
             ))}
-            <div class="p-2"><img src="/mac.webp" class="h-12 w-12"></img></div>
-            <h1 class="text-7xl text-white text-center pt-20 ">
+            <div className="p-2"><img src="/mac.webp" className="h-12 w-12"></img></div>
+            <h1 className="text-7xl text-white text-center pt-20 ">
                 THE 
-                <span class="md:hidden"> MAC</span>
-                 <span class="hidden md:inline"><b> MANGA </b>AND <b>ANIME</b> CLUB</span>
+                <span className="md:hidden"> MAC</span>
+                 <span className="hidden md:inline"><b> MANGA </b>AND <b>ANIME</b> CLUB</span>
             </h1>
-            <h2 class="text-3xl text-white text-right pr-32 pt-6 ">Manipal</h2>
-            <div class="absolute top-96 flex-wrap flex flex-col md:flex-row w-screen items-center justify-evenly">
+            <h2 className="text-3xl text-white text-right pr-32 pt-6 ">Manipal</h2>
+            <div className="absolute top-96 flex-wrap flex flex-col md:flex-row w-screen items-center justify-evenly">
                 {navItems.map((item, index) => (
-                    <div class="p-2">
+                    <div className="p-2">
                     <button
                         key={index}
-                        class="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80 hover:animate-bounce"
+                        className="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80"
                         >
                         <Link to={item.path}>{item.label}</Link>
                     </button>

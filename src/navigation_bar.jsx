@@ -5,7 +5,6 @@ function Navigation_Bar() {
   const [menuVisible, setMenuVisible] = useState(false);
 
   const navItems = [
-    { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
     { label: 'Art', path: '/artwork' },
     { label: 'Events', path: '/events' },
@@ -19,16 +18,16 @@ function Navigation_Bar() {
   };
 
   return (
-    <div className="bg-slate-900 h-16 flex justify-between items-center fixed top-0 right-0 w-full z-50 rounded-b-xl">
+    <div className="bg-transparent h-16 flex justify-between items-center fixed top-0 right-0 w-full z-50 rounded-b-xl">
       <div className="p-2">
-        <img src="/mac.png" className="h-12 w-12" alt="Logo" />
+        <Link to="/"><img src="/mac.png" className="h-12 w-12" alt="Logo" /></Link>
       </div>
-      <div className="hidden md:flex space-x-4 p-2">
+      <div className="hidden md:flex">
         {navItems.map((item, index) => (
-          <div key={index} className="bg-slate-800 rounded-3xl text-pink-400">
+          <div key={index} className="bg-transparent border-[0.08px] rounded-b-xl border-slate-600 text-pink-400">
             <div className="p-4 w-28">
               <Link to={item.path}>
-                <h1 class="text-center">{item.label}</h1>
+                <h1 className="text-center">{item.label}</h1>
             </Link>
             </div>
           </div>
@@ -59,7 +58,7 @@ function Navigation_Bar() {
         <div key={index} className="bg-slate-800 rounded-3xl text-pink-400">
           <div className="p-2 text-center pt-5 w-full">
             <Link to={item.path} onClick={toggleMenu}>
-              <h1 class="text-center">{item.label}</h1>
+              <h1 className="text-center">{item.label}</h1>
             </Link>
           </div>
         </div>
