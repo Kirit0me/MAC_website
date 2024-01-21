@@ -1,17 +1,17 @@
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from 'react';
-import img1 from '/src/img/frieran.jpg'
-import img2 from '/src/img/aot.jpg'
-import img3 from '/src/img/379.jpg'
-import img4 from '/src/img/lucky_star_1.jpg'
-import img5 from '/src/img/mikuoshi.jpg'
-import img6 from '/src/img/holo.jpg'
-import img7 from '/src/img/hyouka.png'
-import img8 from '/src/img/mikuoshi.jpg'
-import img9 from '/src/img/lucky_star_3.jpg'
-import img10 from '/src/img/yosuga.jpg'
-import img11 from '/src/img/oshi.jpg'
-import img12 from '/src/img/ai.png'
+import img1 from '/src/img/frieran.webp'
+import img2 from '/src/img/aot.webp'
+import img3 from '/src/img/379.webp'
+import img4 from '/src/img/lucky_star_1.webp'
+import img5 from '/src/img/mikuoshi.webp'
+import img6 from '/src/img/holo.webp'
+import img7 from '/src/img/hyouka.webp'
+import img8 from '/src/img/mikuoshi.webp'
+import img9 from '/src/img/lucky_star_3.webp'
+import img10 from '/src/img/yosuga.webp'
+import img11 from '/src/img/oshi.webp'
+import img12 from '/src/img/ai.webp'
 
 function shuffle(array) {
     let currentIndex = array.length, randomIndex;
@@ -65,7 +65,7 @@ function MainPage() {
                     }}
                 ></div>
             ))}
-            <div class="p-2"><img src="/mac.png" class="h-12 w-12"></img></div>
+            <div class="p-2"><img src="/mac.webp" class="h-12 w-12"></img></div>
             <h1 class="text-7xl text-white text-center pt-20 ">
                 THE 
                 <span class="md:hidden"> MAC</span>
