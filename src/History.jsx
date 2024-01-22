@@ -1,5 +1,7 @@
 import Navigation_Bar  from "./navigation_bar";
+
 import shouk from './img/shoukaku.webp';
+import Footer from "./Footer";
 import {motion} from "framer-motion";
 
 function History() {
@@ -10,6 +12,7 @@ function History() {
       ];
 
     return (
+        <div className="scrollbar-hide">
         <div className="bg-oshi-no-ko h-screen bg-cover overflow-y-scroll bg-opacity-10">
             <Navigation_Bar/>
             <div className="pt-16">
@@ -17,6 +20,8 @@ function History() {
             <DisplayMembers list_of_mems={Members_2015} />
             </div>
         </div>
+                <Footer />
+                </div>
     )
 }
 

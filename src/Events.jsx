@@ -2,12 +2,14 @@ import Navigation_Bar from './navigation_bar';
 import shouk from './img/shoukaku.webp';
 import { motion } from "framer-motion";
 
-import roonil from "./img/roonil_ttt.png"
-import kiri from "./img/kiri_ttt.png"
-import dl from "./img/dl_ttt.png"
+import roonil from "./img/roonil_ttt.webp"
+import kiri from "./img/kiri_ttt.webp"
+import dl from "./img/dl_ttt.webp"
+import Footer from './Footer';
 
 function Events() {
     return (
+        <div className="scrollbar-hide overflow-scroll">
         <div className="bg-kirito bg-cover h-screen overflow-scroll scrollbar-hide">
             <Navigation_Bar />
             <div className="pt-16">
@@ -156,6 +158,8 @@ function Events() {
             </motion.div>
             </div>
         </div>
+                <Footer />
+                </div>
     )
 }
 

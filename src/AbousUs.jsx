@@ -1,8 +1,10 @@
+import Footer from "./Footer"
 import Navigation_Bar from "./navigation_bar"
 
 function AboutUs() {
     return(
-        <div className="h-screen bg-oshi-no-ko bg-cover flex-col">
+        <>
+        <div className="h-screen bg-girl bg-cover flex-col overflow-y-scroll scrollbar-hide">
             <Navigation_Bar />
             <div className="pt-16">
             <h1 class ="text-center p-4 pt-8 text-5xl rounded-3xl">
@@ -18,7 +20,10 @@ function AboutUs() {
                 </div>
             </div>
             </div>
+            
         </div>
+        <Footer />
+        </>
     )
 }
 

@@ -12,6 +12,7 @@ import img9 from '/src/img/lucky_star_3.webp'
 import img10 from '/src/img/yosuga.webp'
 import img11 from '/src/img/oshi.webp'
 import img12 from '/src/img/ai.webp'
+import Footer from "./Footer";
 
 function shuffle(array) {
     let currentIndex = array.length, randomIndex;
@@ -53,6 +54,7 @@ function MainPage() {
         { label: 'Stuff', path: '/shitposting' }
       ];
     return (
+      <div>
         <div className="relative h-screen">
              {shuffledImages.map((image, index) => (
                 <div
@@ -84,6 +86,8 @@ function MainPage() {
                     </div>
                 ))}
             </div>
+        </div>
+        <Footer />
         </div>
     )
 

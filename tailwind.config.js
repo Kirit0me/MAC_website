@@ -12,7 +12,9 @@ export default {
       backgroundImage: {
         'kirito': "url('/src/img/kiri-minimal.webp')",
         'oshi-no-ko' : "url('/src/img/oshi-no-ko.webp')",
-        'akame' : "url('/src/img/akame.webp')"
+        'akame' : "url('/src/img/akame.webp')",
+        'footer' : "url('/src/img/footer.webp')",
+        'girl' : "url('/src/img/girl_black.webp')",
       }
     },
   },
