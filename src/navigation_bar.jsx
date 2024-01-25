@@ -9,8 +9,8 @@ function Navigation_Bar() {
     { label: 'Art', path: '/artwork' },
     { label: 'Events', path: '/events' },
     { label: 'Merch', path: '/merch' },
-    { label: 'History', path: '/history' },
-    { label: 'Stuff', path: '/shitposting' }
+    // { label: 'History', path: '/history' },
+    // { label: 'Stuff', path: '/shitposting' }
   ];
 
   const toggleMenu = () => {

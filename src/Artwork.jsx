@@ -1,5 +1,4 @@
 import Navigation_Bar from './navigation_bar';
-import Footer from './Footer';
 import shouk from './img/shoukaku.webp';
 import {motion} from "framer-motion";
 
@@ -11,7 +10,6 @@ function Artwork() {
       ];
 
     return (
-        <div className="scrollbar-hide">
         <div className="bg-akame h-screen bg-cover bg-opacity-20">
             <Navigation_Bar />
             <div className="pt-16">
@@ -34,8 +32,6 @@ function Artwork() {
             </div>
             </div>
         </div>
-                <Footer />
-                </div>
     )
 }
 
