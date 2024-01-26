@@ -150,7 +150,7 @@ function Merch() {
                     <button onClick={handleDownloadStickers} className="mt-2 p-3 text-white border-2 border-white rounded-3xl hover:bg-stone-900">Stickers Catalogue</button>
                 </div>
                 <div className="text-white flex-col justify-center p-6 w-5/6 md:w-1/4 text-lg backdrop-blur-xl border-2 border-slate-500 rounded-3xl m-2">
-                    <h1 className="font-bold text-2xl py-2">Stickers : </h1>
+                    <h1 className="font-bold text-2xl py-2">Tshirts : </h1>
                     <ul className="text-[15px]">
                         <li>High Quality for customs</li>
                         <li>No editing will be done</li>
@@ -227,7 +227,7 @@ function Merch() {
                                 />
                         </div>
                         <div className="mb-5">
-                            <label for="tshirt" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Badges Details</label>
+                            <label for="tshirt" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tshirt Details</label>
                             <input 
                                 type="text" 
                                 onChange={(e) => setTshirt(e.target.value)}
