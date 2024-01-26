@@ -77,7 +77,7 @@ function MainPage() {
                     <div className="p-2">
                     <button
                         key={index}
-                        className="rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80"
+                        className="backdrop-blur-xl rounded border-2 border-neutral-50 px-7 pb-[8px] pt-[10px] text-xl font-medium uppercase text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-700 hover:bg-opacity-80"
                         >
                         <Link to={item.path}>{item.label}</Link>
                     </button>
