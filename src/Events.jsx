@@ -33,8 +33,8 @@ function Events() {
                 <h1 className="text-3xl font-semibold p-6 pl-24"><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Terrible Takes Thursday</span></h1>
                 <div className="p-4 grid grid-cols-1 gap-4 md:grid-cols-2 text-white">
                     <div className="hiddenl p-6 bg-slate-900 rounded-3xl border-2 border-slate-400 text-lg">
-                        <h1 className="text-center text-pink-400 text-2xl pb-6 "> About </h1>
-                        <p>
+                        
+                        <p className="text-center">
                         Some takes are trash, but the takes here are just terrible! Presenting you the TTT!
                         </p>
                     </div>
@@ -73,8 +73,8 @@ function Events() {
                 <h1 className="text-3xl font-semibold p-6 pl-24"><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Shonen Fest</span></h1>
                 <div className="p-4 grid grid-cols-1 gap-4 md:grid-cols-2 text-white">
                     <div className = "hiddenl p-6 bg-slate-900 rounded-3xl border-2 border-slate-400 text-lg">
-                        <h1 className="text-center text-pink-400 text-2xl pb-6"> About </h1>
-                        <p>
+                        
+                        <p className="text-center">
                         Our flagship event. Held during 26th to 28th January 2024. We have Events like Weeb feud, Jeopardy in anime style gameshows. We also have a fighting tourney and pokemon showdown. For the writers out there, we have Isekai Story Writing event! Its for all the types of weebs out there, do check it out.
                         </p>
                     </div>
@@ -104,24 +104,27 @@ function Events() {
                     initial="offscreen"
                     whileInView="onscreen"
                     transition={{duration: 0.5, delay: 0.25, type: "spring"}} className="pb-24">
-                <h1 className="text-3xl font-semibold p-6 pl-24"><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Maid Cafe</span></h1>
+                <h1 className="text-3xl font-semibold p-6 pl-24"><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Animania</span></h1>
                 <div className="p-4 grid grid-cols-1 gap-4 md:grid-cols-2 text-white">
-                    <div className = "hiddenl p-6 bg-slate-900 rounded-3xl border-2 border-slate-400 text-lg">
-                        <h1 className="text-center text-pink-400 text-2xl pb-6 "> About </h1>
-                        <p>
-                        Ehehe, We serve at a restaurant to our goshujin-sama in cosplay! (Coming soon)
+                    <div className="hiddenl p-6 bg-slate-900 rounded-3xl border-2 border-slate-400 text-lg">
+                        
+                        <p className="text-center">
+                        Consists of two events, Chuunin Exams and Squid Games. 
+                        As the names suggest, It's a competition of who comes out on the top. 
+                        In Chuunin exams we had a written test on anime, a hunter tag across AB2, finishing the last round with a treasure hunt based on clues from animes.
+                        In Squid games, we had the classic Red-Green light and Tug of War, but ended with a game of snake and ladders to come out on top as the sole survivor of this legendary game.
                         </p>
                     </div>
                     <div className="flex justify-evenly flex-wrap">
                         <img 
-                            src={maid}
-                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
+                            src={shouk}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-contain p-4"></img>
                             <img 
-                            src={maid}
-                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
+                            src={shouk}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-contain p-4"></img>
                             <img 
-                            src={maid}
-                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
+                            src={shouk}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-contain p-4"></img>        
                     </div>
                 </div>
             </motion.div>
@@ -138,27 +141,28 @@ function Events() {
                     initial="offscreen"
                     whileInView="onscreen"
                     transition={{duration: 0.5, delay: 0.25, type: "spring"}} className="pb-24">
-                <h1 className="text-3xl font-semibold p-6 pl-24"><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Animania</span></h1>
+                <h1 className="text-3xl font-semibold p-6 pl-24"><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Maid Cafe</span></h1>
                 <div className="p-4 grid grid-cols-1 gap-4 md:grid-cols-2 text-white">
-                    <div className="hiddenl p-6 bg-slate-900 rounded-3xl border-2 border-slate-400 text-lg">
-                        <h1 className="text-center text-pink-400 text-2xl pb-6 "> About </h1>
-                        <p>
-                        Our Revels event! (Coming Soon)
+                    <div className = "hiddenl p-6 bg-slate-900 rounded-3xl border-2 border-slate-400 text-lg">
+                        
+                        <p className="text-center">
+                        Ehehe, We serve at a restaurant to our goshujin-sama in cosplay! (Coming soon)
                         </p>
                     </div>
                     <div className="flex justify-evenly flex-wrap">
                         <img 
-                            src={shouk}
-                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-contain p-4"></img>
+                            src={maid}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
                             <img 
-                            src={shouk}
-                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-contain p-4"></img>
+                            src={maid}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
                             <img 
-                            src={shouk}
-                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-contain p-4"></img>        
+                            src={maid}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
                     </div>
                 </div>
             </motion.div>
+
             </div>
         </div>
     )

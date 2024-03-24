@@ -15,6 +15,7 @@ export default {
         'akame' : "url('/src/img/akame.webp')",
         'footer' : "url('/src/img/footer.webp')",
         'girl' : "url('/src/img/girl_black.webp')",
+        'frieren' : "url('/src/img/frieren_wp.webp')",
       }
     },
   },

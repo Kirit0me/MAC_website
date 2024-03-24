@@ -6,11 +6,11 @@ function Navigation_Bar() {
 
   const navItems = [
     { label: 'About', path: '/about' },
-    { label: 'Art', path: '/artwork' },
+    // { label: 'Art', path: '/artwork' },
     { label: 'Events', path: '/events' },
     { label: 'Merch', path: '/merch' },
     // { label: 'History', path: '/history' },
-    // { label: 'Stuff', path: '/shitposting' }
+    { label: 'Posts', path: '/posts'}
   ];
 
   const toggleMenu = () => {

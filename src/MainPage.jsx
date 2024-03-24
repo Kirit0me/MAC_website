@@ -47,10 +47,10 @@ function MainPage() {
     const navItems = [
         { label: 'About', path: '/about' },
         { label: 'Events', path: '/events' },
-        { label: 'Artworks', path: '/artwork' },
+        // { label: 'Artworks', path: '/artwork' },
         { label: 'Merch', path: '/merch' },
         // { label: 'History', path: '/history' },
-        // { label: 'Stuff', path: '/shitposting' }
+        { label: 'Posts', path: '/posts'}
       ];
     return (
         <div className="relative h-screen">
