@@ -1,4 +1,6 @@
 import Navigation_Bar from "./navigation_bar"
+import mac_grp from "./img/mac_grp_1.jpg"
+import mac_grp2 from "./img/mac_grp_2.jpg"
 
 function AboutUs() {
     return(
@@ -17,6 +19,16 @@ function AboutUs() {
 Our mascots, the Sakuranami twins, are the sole promoters of the culture, so as you dive into the various reviews and artworks that our group has done, or view the merch that is present and you wish to admire and possible buy; we got you covered.
                     
                     </p>
+                </div>
+                <div className="flex flex-row w-screen flex-wrap p-6">
+                    <div className="p-6 md:w-1/2 w-full">
+                <img 
+                    src={mac_grp}
+                    className="rounded-3xl border-2 border-purple-400"></img></div>
+                    <div className="p-6 md:w-1/2 w-full">
+                <img 
+                    src={mac_grp2}
+                    className="rounded-3xl border-2 border-purple-400"></img></div>
                 </div>
             </div>
             </div>
