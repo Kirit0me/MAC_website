@@ -6,9 +6,12 @@ import roonil from "./img/roonil_ttt.webp"
 import kiri from "./img/kiri_ttt.webp"
 import dl from "./img/dl_ttt.webp"
 
-import poster from "./img/shonen poster.webp"
-import movie from "./img/movie_poster_mac.jpg"
-import anisar from "./img/anisar.jpg"
+import sf1 from "./img/creep.jpg"
+import sf2 from "./img/rigzensux.jpg"
+import sf3 from "./img/lucky.jpg"
+
+
+
 import maid from "./img/maidfuku.jpg"
 
 function Events() {
@@ -80,13 +83,13 @@ function Events() {
                     </div>
                     <div className="flex justify-evenly flex-wrap">
                         <img 
-                            src={anisar}
+                            src={sf1}
                             className="mx-auto rounded-3xl w-1/3 items-center content-center justify-center object-center object-cover p-4"></img>
                         <img 
-                            src={movie}
+                            src={sf2}
                             className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
                         <img 
-                            src={poster}
+                            src={sf3}
                             className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>       
                     </div>
                 </div>
@@ -125,6 +128,74 @@ function Events() {
                             <img 
                             src={shouk}
                             className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-contain p-4"></img>        
+                    </div>
+                </div>
+            </motion.div>
+            <motion.div
+                    variants={{ offscreen: {
+                        x: "-100%" ,
+                        opacity: 0
+                      },
+                      onscreen: {
+                            opacity: 1,
+                            x: 0
+                        }
+                      }}
+                    initial="offscreen"
+                    whileInView="onscreen"
+                    transition={{duration: 0.5, delay: 0.25, type: "spring"}} className="pb-24">
+                <h1 className="text-3xl font-semibold p-6 pl-24"><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Shonen Fest</span></h1>
+                <div className="p-4 grid grid-cols-1 gap-4 md:grid-cols-2 text-white">
+                    <div className = "hiddenl p-6 bg-slate-900 rounded-3xl border-2 border-slate-400 text-lg">
+                        
+                        <p className="text-center">
+                        Our flagship event. Held during 26th to 28th January 2024. We have Events like Weeb feud, Jeopardy in anime style gameshows. We also have a fighting tourney and pokemon showdown. For the writers out there, we have Isekai Story Writing event! Its for all the types of weebs out there, do check it out.
+                        </p>
+                    </div>
+                    <div className="flex justify-evenly flex-wrap">
+                        <img 
+                            src={sf1}
+                            className="mx-auto rounded-3xl w-1/3 items-center content-center justify-center object-center object-cover p-4"></img>
+                        <img 
+                            src={sf2}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
+                        <img 
+                            src={sf3}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>       
+                    </div>
+                </div>
+            </motion.div>
+            <motion.div
+                    variants={{ offscreen: {
+                        x: "-100%" ,
+                        opacity: 0
+                      },
+                      onscreen: {
+                            opacity: 1,
+                            x: 0
+                        }
+                      }}
+                    initial="offscreen"
+                    whileInView="onscreen"
+                    transition={{duration: 0.5, delay: 0.25, type: "spring"}} className="pb-24">
+                <h1 className="text-3xl font-semibold p-6 pl-24"><span className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-purple-400">Shonen Fest</span></h1>
+                <div className="p-4 grid grid-cols-1 gap-4 md:grid-cols-2 text-white">
+                    <div className = "hiddenl p-6 bg-slate-900 rounded-3xl border-2 border-slate-400 text-lg">
+                        
+                        <p className="text-center">
+                        Our flagship event. Held during 26th to 28th January 2024. We have Events like Weeb feud, Jeopardy in anime style gameshows. We also have a fighting tourney and pokemon showdown. For the writers out there, we have Isekai Story Writing event! Its for all the types of weebs out there, do check it out.
+                        </p>
+                    </div>
+                    <div className="flex justify-evenly flex-wrap">
+                        <img 
+                            src={sf1}
+                            className="mx-auto rounded-3xl w-1/3 items-center content-center justify-center object-center object-cover p-4"></img>
+                        <img 
+                            src={sf2}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>
+                        <img 
+                            src={sf3}
+                            className="mx-auto rounded-3xl w-1/3  items-center content-center justify-center object-center object-cover p-4"></img>       
                     </div>
                 </div>
             </motion.div>

@@ -50,7 +50,7 @@ function MainPage() {
         // { label: 'Artworks', path: '/artwork' },
         { label: 'Merch', path: '/merch' },
         // { label: 'History', path: '/history' },
-        { label: 'Posts', path: '/posts'}
+        // { label: 'Posts', path: '/posts'}
       ];
     return (
         <div className="relative h-screen">

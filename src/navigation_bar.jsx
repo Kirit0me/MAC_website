@@ -10,7 +10,7 @@ function Navigation_Bar() {
     { label: 'Events', path: '/events' },
     { label: 'Merch', path: '/merch' },
     // { label: 'History', path: '/history' },
-    { label: 'Posts', path: '/posts'}
+    // { label: 'Posts', path: '/posts'}
   ];
 
   const toggleMenu = () => {
